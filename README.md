@@ -11,6 +11,10 @@ license: mit
 
 # ✈️ Fuel & Emissions-Aware Flight Route Decision Support
 
+[![Live demo on Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Live%20demo-Hugging%20Face%20Spaces-2563eb)](https://huggingface.co/spaces/yusufkilicc/fuel-flight-routing)
+
+**🔗 Try it live:** **[open the app ↗](https://yusufkilicc-fuel-flight-routing.hf.space)** · or view it on the [Hugging Face Space](https://huggingface.co/spaces/yusufkilicc/fuel-flight-routing)
+
 Predict per-interval **fuel burn** from real flight trajectories, then turn that
 model into a **route decision-support tool** that scores candidate routes between
 any two airports by fuel, CO₂, time and cost.
@@ -22,7 +26,7 @@ dataset (EUROCONTROL × OpenSky Network).
 > LightGBM model predicts fuel; SHAP explains it; a multi-scenario engine turns it
 > into route recommendations; a 3D-globe web app makes it usable.
 
-![Route decision web app](docs/ui_globe.png)
+[![Route decision web app](docs/ui_globe.png)](https://yusufkilicc-fuel-flight-routing.hf.space)
 
 ---
 
