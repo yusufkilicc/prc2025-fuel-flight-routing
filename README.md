@@ -1,3 +1,14 @@
+---
+title: Fuel & Emissions-Aware Route Comparison
+emoji: ✈️
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 8600
+pinned: false
+license: mit
+---
+
 # ✈️ Fuel & Emissions-Aware Flight Route Decision Support
 
 Predict per-interval **fuel burn** from real flight trajectories, then turn that
