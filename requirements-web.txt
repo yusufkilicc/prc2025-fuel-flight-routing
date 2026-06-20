@@ -1,0 +1,9 @@
+# Runtime deps for the web app only (fast setup). Full pipeline: requirements.txt
+pandas==2.3.3
+numpy==2.3.4
+pyarrow==16.0.0
+lightgbm==4.6.0
+openap==2.5.0
+fastapi==0.136.0
+uvicorn==0.44.0
+airportsdata==20260315

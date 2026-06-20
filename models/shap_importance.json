@@ -1,0 +1,13 @@
+{
+  "title": "What drives fuel burn",
+  "subtitle": "Global SHAP impact from the PRC-trained hybrid model",
+  "drivers": [
+    {"feature": "OpenAP physics estimate", "value": 0.615},
+    {"feature": "Interval duration", "value": 0.209},
+    {"feature": "Aircraft type", "value": 0.153},
+    {"feature": "Estimated mass", "value": 0.094},
+    {"feature": "Route distance", "value": 0.037},
+    {"feature": "Altitude change", "value": 0.030},
+    {"feature": "Mach number", "value": 0.027}
+  ]
+}

@@ -1,0 +1,41 @@
+# ---- Data ----
+# Large trajectory data: download from Zenodo (see DATA.md), do NOT commit.
+*.parquet
+data/*
+flights_train/
+flights_rank/
+flights_final/
+# Bundled demo data (small) — the web app runs out-of-the-box with these.
+!data/apt.parquet
+!data/flightlist_train.parquet
+
+# ---- Secrets (NEVER commit) ----
+MiniO/
+credentials.json
+*.key
+.env
+
+# ---- Generated outputs ----
+features_*.parquet
+submission_*.parquet
+_*.parquet
+_*.log
+
+# ---- Python ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Packaging artifact (self-zip) ----
+prc2025-fuel-routing.zip
+*.zip
+
+# ---- IDE ----
+.idea/
+.vscode/

@@ -1,0 +1,23 @@
+# Core data
+pandas==2.3.3
+numpy==2.3.4
+pyarrow==16.0.0
+scipy==1.17.1
+
+# ML
+scikit-learn==1.8.0
+lightgbm==4.6.0
+shap==0.51.0
+matplotlib==3.10.8
+
+# Aviation physics
+openap==2.5.0
+
+# Web app (primary UI)
+fastapi==0.136.0
+uvicorn==0.44.0
+airportsdata==20260315
+
+# Streamlit prototype UI (optional)
+streamlit==1.56.0
+pydeck==0.9.1

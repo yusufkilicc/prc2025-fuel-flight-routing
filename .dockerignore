@@ -1,0 +1,9 @@
+data/flights_*
+*.parquet
+!data/apt.parquet
+!data/flightlist_train.parquet
+__pycache__/
+*.pyc
+.git/
+docs/
+tests/
